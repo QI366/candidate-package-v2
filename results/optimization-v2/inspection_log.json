@@ -1,0 +1,379 @@
+{
+  "log_version": "1.0",
+  "scope": [
+    "item-p04",
+    "item-p07",
+    "item-p09",
+    "item-p10",
+    "item-p22",
+    "item-p25",
+    "item-p30"
+  ],
+  "views": [
+    {
+      "object_id": "item-p04",
+      "view": "view-01.png",
+      "source_sha256": "51b3837d5653b05b1d52183fc952db3b61f7303fd715acd8421f702808071a60",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p04/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p04",
+      "view": "view-02.png",
+      "source_sha256": "01ba0b3f41a713e1f30aabad9efc6644821674025605c3ac446d1f2319d3c7b3",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p04/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p04",
+      "view": "view-03.png",
+      "source_sha256": "a5f8bc155f02c9e4b5b59b592f46a58419395bde336d75ae3af949134490729b",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p04/view-03.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-01.png",
+      "source_sha256": "6f8ac8d264d04ce8543bf1e9be8570871754dc981d40270cae610b6ee93efdd9",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p07/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-02.png",
+      "source_sha256": "8c5485d23ee46739482a19f71eed3673ac468c0abea2b1689cfde1a7a6269e54",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p07/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-03.png",
+      "source_sha256": "8b1bbc66aa23acb2d59281b54d410fb9f0db3b3b97fd295a5dd4ef99394665c5",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p07/view-03.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-04.png",
+      "source_sha256": "e603acc0e118c1423d96be7e239217dd5240421c5aed4f1a87b17bd76e6332d5",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p07/view-04.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-01.png",
+      "source_sha256": "86d0db5a76f4ec4db7f1c5bc91fc9cc931430dde9a6c1c1ddfef4456e721d7d5",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p09/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-02.png",
+      "source_sha256": "be7d19eb0f4f3ef71a906f8dd2579a8c3f81be3e1647dfd7445952db2b364aef",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p09/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-03.png",
+      "source_sha256": "21dfad92c33d411334b45b854437eb590c988ff103f98934bd50093b251d747c",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p09/view-03.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-04.png",
+      "source_sha256": "6aa4bfbc13f9ae0cc82df0b7f670b3309ceb0f069be0214a33a85eeef5bd38ce",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p09/view-04.png.region-01.png",
+        "detail-crops/p09-view-04.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-05.png",
+      "source_sha256": "9455de97805c49a6013f6fd06fd3f2babfd32c651cdfe1571e2c74b98c790891",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p09/view-05.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p10",
+      "view": "view-01.png",
+      "source_sha256": "0411f2dee168fa55e198ff8d14cb03c1fb49ac1d4ffb348736f57b7fa56173b2",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p10/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p10",
+      "view": "view-02.png",
+      "source_sha256": "ae9baac38b33aef9722ad2d44826865092194fd0477a504f931ad93132e68a03",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p10/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-01.png",
+      "source_sha256": "4a57af75cbe9f62a2e9db72ea0d5f6966d92cbdc3fa9e6b8dd7dac9070272ded",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p22/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-02.png",
+      "source_sha256": "1e815e3b281cea0b5b4bd34b22369614fe8cd086423be7a2e79421ef5622e165",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p22/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-03.png",
+      "source_sha256": "205b2346aa94249bb7f95d9d11ba22a3dbc1e9af2877ddcce2c235fa87014667",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p22/view-03.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-04.png",
+      "source_sha256": "58db4df613018adb56061bc1becf94afaf52abc24352b73c64ed0da03000ffe0",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p22/view-04.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-05.png",
+      "source_sha256": "e5b63f2a0b9bbeb5c2c35eb6f6984ab0a66aeb08a2ab82b61bb48a9fcc695290",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p22/view-05.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p25",
+      "view": "view-01.png",
+      "source_sha256": "82f11f3a607afebbc3ae56eede38e4bb010f7d5019a2aa125acf3e8ed145e5f7",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p25/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p25",
+      "view": "view-02.png",
+      "source_sha256": "481bf0be6cc42f863f09f10d44e4103b064ea83f3fdb95382fcd427eebe28441",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p25/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-01.png",
+      "source_sha256": "7b3bc22d5bff5842a10b7736db534a126d53205f153e37f323ddbed5727c3faa",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p30/view-01.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-02.png",
+      "source_sha256": "804010c086d7a7031f14058b36389b466c159b50a64a2f7d8a098a74d9a4260b",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p30/view-02.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-03.png",
+      "source_sha256": "c2dde282fcbbc31ede7a18f5aa55e6362168a9c5380f56899877cb38bbebfa6e",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p30/view-03.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-04.png",
+      "source_sha256": "8999705bc979eb36776c07a627067f9ba9053dec44aa869b9899e8ae475a9056",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p30/view-04.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-05.png",
+      "source_sha256": "92a55378ad9aa65abb4f7cab1b4ce0aaee2954e75a99ac4af7762b6e9d7cfbdf",
+      "stage": "detail",
+      "artifacts_seen": [
+        "prepared/item-p30/view-05.png.region-01.png"
+      ],
+      "checks": {
+        "linear_mark": "complete",
+        "material_loss": "complete"
+      },
+      "note": "逐视角查看了保留整体边界的源图像区域；分别检查线状痕迹与局部缺损。对低对比或对称面身份无法判别的候选保留复核状态。"
+    }
+  ]
+}

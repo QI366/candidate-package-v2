@@ -1,0 +1,264 @@
+{
+  "regions": [
+    {
+      "object_id": "item-p04",
+      "view": "view-01.png",
+      "box_pixel": [
+        443,
+        442,
+        678,
+        670
+      ]
+    },
+    {
+      "object_id": "item-p04",
+      "view": "view-02.png",
+      "box_pixel": [
+        395,
+        392,
+        765,
+        755
+      ]
+    },
+    {
+      "object_id": "item-p04",
+      "view": "view-03.png",
+      "box_pixel": [
+        398,
+        384,
+        762,
+        752
+      ]
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-01.png",
+      "box_pixel": [
+        269,
+        450,
+        830,
+        749
+      ]
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-02.png",
+      "box_pixel": [
+        396,
+        401,
+        713,
+        962
+      ]
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-03.png",
+      "box_pixel": [
+        243,
+        503,
+        793,
+        808
+      ]
+    },
+    {
+      "object_id": "item-p07",
+      "view": "view-04.png",
+      "box_pixel": [
+        334,
+        446,
+        877,
+        771
+      ]
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-01.png",
+      "box_pixel": [
+        220,
+        837,
+        1839,
+        1235
+      ]
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-02.png",
+      "box_pixel": [
+        804,
+        337,
+        1291,
+        1735
+      ]
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-03.png",
+      "box_pixel": [
+        280,
+        789,
+        1711,
+        1258
+      ]
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-04.png",
+      "box_pixel": [
+        264,
+        715,
+        1699,
+        1273
+      ]
+    },
+    {
+      "object_id": "item-p09",
+      "view": "view-05.png",
+      "box_pixel": [
+        756,
+        329,
+        1226,
+        1763
+      ]
+    },
+    {
+      "object_id": "item-p10",
+      "view": "view-01.png",
+      "box_pixel": [
+        409,
+        365,
+        759,
+        737
+      ]
+    },
+    {
+      "object_id": "item-p10",
+      "view": "view-02.png",
+      "box_pixel": [
+        383,
+        374,
+        736,
+        719
+      ]
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-01.png",
+      "box_pixel": [
+        233,
+        836,
+        1789,
+        1218
+      ]
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-02.png",
+      "box_pixel": [
+        801,
+        368,
+        1274,
+        1723
+      ]
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-03.png",
+      "box_pixel": [
+        291,
+        782,
+        1671,
+        1252
+      ]
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-04.png",
+      "box_pixel": [
+        313,
+        727,
+        1688,
+        1277
+      ]
+    },
+    {
+      "object_id": "item-p22",
+      "view": "view-05.png",
+      "box_pixel": [
+        773,
+        342,
+        1227,
+        1716
+      ]
+    },
+    {
+      "object_id": "item-p25",
+      "view": "view-01.png",
+      "box_pixel": [
+        447,
+        348,
+        818,
+        732
+      ]
+    },
+    {
+      "object_id": "item-p25",
+      "view": "view-02.png",
+      "box_pixel": [
+        389,
+        332,
+        770,
+        707
+      ]
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-01.png",
+      "box_pixel": [
+        451,
+        456,
+        684,
+        689
+      ]
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-02.png",
+      "box_pixel": [
+        460,
+        345,
+        827,
+        728
+      ]
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-03.png",
+      "box_pixel": [
+        400,
+        404,
+        768,
+        774
+      ]
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-04.png",
+      "box_pixel": [
+        384,
+        319,
+        766,
+        689
+      ]
+    },
+    {
+      "object_id": "item-p30",
+      "view": "view-05.png",
+      "box_pixel": [
+        383,
+        388,
+        755,
+        755
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "objects": [
+    {
+      "object_id": "item-p09",
+      "views_received": ["view-01.png", "view-02.png", "view-03.png", "view-04.png", "view-05.png"],
+      "views_inspected": ["view-01.png", "view-02.png", "view-03.png", "view-04.png", "view-05.png"],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [700, 430, 790, 520],
+          "relative_location": "锯条平面靠近带孔柄端的上侧区域",
+          "visual_evidence": "黑色锯条平面上可见一条与齿形边缘不同的细长浅色斜线，形态不规则且不属于规则锯齿纹理。",
+          "other_views": [
+            {"view": "view-02.png", "relation": "not_visible", "note": "该视角主要显示锯条侧向轮廓，平面线痕对比不足。"},
+            {"view": "view-03.png", "relation": "confirms", "note": "倾斜平面视角仍可见靠近柄端的相似斜向浅线。"},
+            {"view": "view-04.png", "relation": "confirms", "note": "反向倾斜视角中，平面上对应区域仍有细线状痕迹。"},
+            {"view": "view-05.png", "relation": "confirms", "note": "竖直视角的平面上可见相同方向的细长线痕。"}
+          ],
+          "uncertainty": "候选为单个区域线痕；未逐像素分割，暗色表面低对比使深度无法判断。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p10",
+      "views_received": ["view-01.png", "view-02.png"],
+      "views_inspected": ["view-01.png", "view-02.png"],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p25",
+      "views_received": ["view-01.png", "view-02.png"],
+      "views_inspected": ["view-01.png", "view-02.png"],
+      "status": "review",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "low",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [500, 420, 650, 700],
+          "relative_location": "黄铜套管可见圆柱侧面中下部",
+          "visual_evidence": "圆柱侧面有一条细长亮色条带，并在另一视角呈现相似位置的亮线。",
+          "other_views": [
+            {"view": "view-02.png", "relation": "confirms", "note": "相同可见侧面仍有亮色细线，但光照/高光变化使其是否为擦痕无法确定。"}
+          ],
+          "uncertainty": "低置信：亮线可能是圆柱曲面高光或正常表面纹理，当前证据不足以确认划痕。"
+        }
+      ],
+      "review_reason": "p25 的亮线在两视角出现但与高光/加工纹理难以区分，需要人工或受控光照复核；两类表面均已检查。"
+    }
+  ],
+  "summary": {
+    "objects_total": 3,
+    "objects_with_defects": 2,
+    "objects_for_review": 1,
+    "linear_mark_count": 2,
+    "material_loss_count": 0
+  }
+}

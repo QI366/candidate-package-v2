@@ -1,0 +1,110 @@
+{
+  "comparison_type": "targeted_error_analysis_not_controlled_ab",
+  "scope": [
+    "item-p04",
+    "item-p07",
+    "item-p09",
+    "item-p10",
+    "item-p22",
+    "item-p25",
+    "item-p30"
+  ],
+  "input_views": 26,
+  "baseline_subset": {
+    "objects_total": 7,
+    "candidate_records": 0,
+    "review_objects": 0,
+    "verifiable_detail_log": null
+  },
+  "regression": {
+    "objects_total": 7,
+    "candidate_records": 5,
+    "review_objects": 3,
+    "detail_log_records": 26
+  },
+  "object_changes": [
+    {
+      "object_id": "item-p04",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "review",
+      "regression_candidates": 0,
+      "regression_types": [],
+      "requires_review": true
+    },
+    {
+      "object_id": "item-p07",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "no_visible_defect",
+      "regression_candidates": 0,
+      "regression_types": [],
+      "requires_review": false
+    },
+    {
+      "object_id": "item-p09",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "defects_found",
+      "regression_candidates": 1,
+      "regression_types": [
+        "linear_mark"
+      ],
+      "requires_review": false
+    },
+    {
+      "object_id": "item-p10",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "defects_found",
+      "regression_candidates": 1,
+      "regression_types": [
+        "material_loss"
+      ],
+      "requires_review": false
+    },
+    {
+      "object_id": "item-p22",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "no_visible_defect",
+      "regression_candidates": 0,
+      "regression_types": [],
+      "requires_review": false
+    },
+    {
+      "object_id": "item-p25",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "review",
+      "regression_candidates": 2,
+      "regression_types": [
+        "linear_mark"
+      ],
+      "requires_review": true
+    },
+    {
+      "object_id": "item-p30",
+      "baseline_status": "no_visible_defect",
+      "baseline_candidates": 0,
+      "regression_status": "review",
+      "regression_candidates": 1,
+      "regression_types": [
+        "linear_mark"
+      ],
+      "requires_review": true
+    }
+  ],
+  "recognition_metrics": {
+    "independent_ground_truth": false,
+    "precision": null,
+    "recall": null,
+    "f1": null,
+    "accuracy": null
+  },
+  "software_tests": {
+    "tests": 15,
+    "passed": 15,
+    "scope": "synthetic pipeline behavior, not model recognition"
+  }
+}

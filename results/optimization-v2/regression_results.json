@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "objects": [
+    {
+      "object_id": "item-p04",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png"
+      ],
+      "status": "review",
+      "defects": [],
+      "review_reason": "外壁有近平行的低对比亮带，可能是正常加工/反光，也可能是浅擦痕；当前图像无法判定。"
+    },
+    {
+      "object_id": "item-p07",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p09",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-04.png",
+          "bbox_1000": [
+            305,
+            452,
+            362,
+            498
+          ],
+          "relative_location": "锯条平面中段靠下缘",
+          "visual_evidence": "锯条腹面可见一条细长浅色斜痕，与规则锯齿轮廓相分离。",
+          "other_views": [
+            {
+              "view": "view-01.png",
+              "relation": "not_visible",
+              "note": "该斜线在此角度未能稳定对应；不以齿形相似作为同一损伤的佐证。"
+            }
+          ],
+          "uncertainty": "仅一个视角明确显示该处痕迹；其他角度未能凭齿孔和端部锚点确认是否为同一表面位置。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p10",
+      "views_received": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "material_loss",
+          "confidence": "high",
+          "evidence_view": "view-02.png",
+          "bbox_1000": [
+            390,
+            510,
+            457,
+            605
+          ],
+          "relative_location": "白色套层底部边缘",
+          "visual_evidence": "白色套层边缘有不规则缺口，可见蓝色底材外露，边界不符合连续的规则轮廓。",
+          "other_views": [
+            {
+              "view": "view-01.png",
+              "relation": "not_visible",
+              "note": "该角度下看不到同一段套层边缘，不能将相邻底缘视为同一缺口。"
+            }
+          ],
+          "uncertainty": "边缘缺口清楚；不同角度能看到套层底部异常，但无法确认是否为同一个局部缺口。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p22",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p25",
+      "views_received": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "status": "review",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [
+            442,
+            389,
+            588,
+            482
+          ],
+          "relative_location": "黄铜管外壁一侧，近开口方向",
+          "visual_evidence": "外壁可见一条不规则浅色擦痕，线条局部呈中断状。",
+          "other_views": [
+            {
+              "view": "view-02.png",
+              "relation": "not_visible",
+              "note": "另一角度出现相似浅痕，但不能确认是同一表面位置。"
+            }
+          ],
+          "uncertainty": "旋转对称管体缺少稳定角向锚点，无法与另一视角的痕迹建立可靠实体对应。"
+        },
+        {
+          "defect_id": "D2",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-02.png",
+          "bbox_1000": [
+            482,
+            442,
+            606,
+            522
+          ],
+          "relative_location": "黄铜管外壁转向侧",
+          "visual_evidence": "外壁可见另一段浅色、局部断续的线状痕迹。",
+          "other_views": [
+            {
+              "view": "view-01.png",
+              "relation": "not_visible",
+              "note": "观察到类似痕迹但没有共同表面锚点。"
+            }
+          ],
+          "uncertainty": "与 view-01.png 中的痕迹可能对应同一旋转表面，也可能是另一处；候选条目未去重为物理缺陷计数。"
+        }
+      ],
+      "review_reason": "两个旋转视角都可见线状擦痕，但缺少稳定表面锚点，无法确定是一处还是两处实体损伤；候选条目暂按视角分别记录。"
+    },
+    {
+      "object_id": "item-p30",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "review",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "low",
+          "evidence_view": "view-04.png",
+          "bbox_1000": [
+            531,
+            416,
+            602,
+            478
+          ],
+          "relative_location": "黄铜管外壁靠近管口的一侧",
+          "visual_evidence": "管壁上可见一条短而较直的暗色线痕。",
+          "other_views": [],
+          "uncertainty": "低对比线痕可能是划擦，也可能是加工纹或照明造成的明暗变化；需要不同方向照明复核。"
+        }
+      ],
+      "review_reason": "外壁有短暗线，外观类似浅擦痕，也可能是加工纹或明暗变化；需要更清晰侧光照片复核。"
+    }
+  ],
+  "summary": {
+    "objects_total": 7,
+    "objects_with_defects": 4,
+    "objects_for_review": 3,
+    "linear_mark_count": 4,
+    "material_loss_count": 1
+  }
+}

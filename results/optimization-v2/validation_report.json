@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "computed_summary": {
+    "objects_total": 7,
+    "objects_with_defects": 4,
+    "objects_for_review": 3,
+    "linear_mark_count": 4,
+    "material_loss_count": 1
+  },
+  "declared_views_received": 26,
+  "declared_views_inspected": 26,
+  "declared_view_inspection_coverage": 1.0,
+  "candidates_with_other_view_confirmation": 0,
+  "candidate_other_view_confirmation_ratio": 0.0,
+  "evidence_metrics": {
+    "views_logged": 26,
+    "detail_views": 26,
+    "two_class_complete_views": 26,
+    "declared_detail_coverage": 1.0,
+    "self_reported_not_independent_truth": true
+  },
+  "limitations": "Record validation only; coverage is self-reported. This does not prove image inspection or recognition accuracy."
+}

@@ -1,0 +1,23 @@
+# Source and generated image data
+images/
+_forward_tmp/
+results/**/prepared/
+results/**/detail-crops/
+results/**/review-pages/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.ico
+*.heic
+*.avif
+
+# Local and platform-generated files
+.DS_Store
+__MACOSX/
+__pycache__/
+*.py[cod]

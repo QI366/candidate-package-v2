@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0",
+  "objects": [
+    {
+      "object_id": "item-p01",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p02",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p03",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p04",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p05",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p06",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p07",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p08",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p09",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p10",
+      "views_received": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p11",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [
+            590,
+            450,
+            630,
+            570
+          ],
+          "relative_location": "圆形壳体正面偏右，靠近边缘的一条斜向浅色线痕",
+          "visual_evidence": "黑色壳体正面有一条细长浅色擦痕；view-03 可见对应面上的相似痕迹。",
+          "other_views": [
+            {
+              "view": "view-03.png",
+              "relation": "confirms",
+              "note": "相同圆形壳体表面可见对应线痕；其余视图角度/遮挡不清。"
+            }
+          ],
+          "uncertainty": "仅一条线痕清楚可见，受暗色材质反光影响；粗略框。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p12",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p13",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p14",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p15",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p16",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p17",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [
+            300,
+            360,
+            890,
+            550
+          ],
+          "relative_location": "面板正面中部至右侧，可见多条浅细划痕/擦痕",
+          "visual_evidence": "浅色面板表面有数条细长、非平行且方向不同的线状痕迹；多视图可见相似痕迹。",
+          "other_views": [
+            {
+              "view": "view-02.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-03.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-04.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-05.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            }
+          ],
+          "uncertainty": "多条线痕合并为一个区域候选；未逐条分割计数，材质反光/拍摄清晰度影响细节。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p18",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p19",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [
+            50,
+            390,
+            700,
+            570
+          ],
+          "relative_location": "长条面板左半至中部，成簇线状痕迹",
+          "visual_evidence": "面板表面有多条长短不一、交叉/平行的细线状凹痕或擦痕；在不同旋转视角中反复可见。",
+          "other_views": [
+            {
+              "view": "view-02.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-03.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-04.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-05.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            }
+          ],
+          "uncertainty": "多条线痕合并为一个区域候选；未逐条分割计数，材质反光/拍摄清晰度影响细节。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p20",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p21",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p22",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p23",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p24",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p25",
+      "views_received": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p26",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p27",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "view-01.png",
+          "bbox_1000": [
+            300,
+            140,
+            850,
+            610
+          ],
+          "relative_location": "斜置面板中上部至中央",
+          "visual_evidence": "面板表面可见多条清晰细长划痕，含长斜线及短线簇；不同视角中在对应表面区域可见。",
+          "other_views": [
+            {
+              "view": "view-02.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-03.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-04.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            },
+            {
+              "view": "view-05.png",
+              "relation": "confirms",
+              "note": "旋转/倾斜视图中仍可见相似线状痕迹；定位为同一面板区域，作为一组候选划痕簇合并。"
+            }
+          ],
+          "uncertainty": "多条线痕合并为一个区域候选；未逐条分割计数，材质反光/拍摄清晰度影响细节。"
+        }
+      ],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p28",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p29",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    },
+    {
+      "object_id": "item-p30",
+      "views_received": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "views_inspected": [
+        "view-01.png",
+        "view-02.png",
+        "view-03.png",
+        "view-04.png",
+        "view-05.png"
+      ],
+      "status": "no_visible_defect",
+      "defects": [],
+      "review_reason": null
+    }
+  ],
+  "summary": {
+    "objects_total": 30,
+    "objects_with_defects": 4,
+    "objects_for_review": 0,
+    "linear_mark_count": 4,
+    "material_loss_count": 0
+  }
+}

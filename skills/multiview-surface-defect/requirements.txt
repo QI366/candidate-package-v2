@@ -1,0 +1,2 @@
+# Only prepare_views.py requires this dependency; validators use the standard library.
+Pillow>=9.1

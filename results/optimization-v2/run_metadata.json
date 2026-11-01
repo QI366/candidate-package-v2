@@ -1,0 +1,39 @@
+{
+  "client_date": "2026-10-31",
+  "client_timezone": "Asia/Shanghai",
+  "skill_version": "2.0.0",
+  "result_schema_version": "1.0",
+  "executor": "current multimodal Agent; baseline was a prior local Agent execution",
+  "reproducible_api_model_id": null,
+  "scope": [
+    "item-p04",
+    "item-p07",
+    "item-p09",
+    "item-p10",
+    "item-p22",
+    "item-p25",
+    "item-p30"
+  ],
+  "baseline_outputs_sha256": {
+    "evaluation.md": "58b02c5209fa83df3007bd1f0f6a994c2cce2041ec0f0a7a49dc7fbff5af4a51",
+    "inspection_results.json": "024c5f4faa1dcb087eccef739795884737368cca980e570f992a694ae150a497",
+    "inspection_results.jsonl": "e265b045e25e38c0331bfb9dbeb132865e9aeb2264c4afd1934832e7e7fb1a5a"
+  },
+  "skill_files_sha256": {
+    "README.md": "e59b0bfcde789c45475009d454487b178bf29d4daaaf4787721cb7f3e97bc575",
+    "requirements.txt": "927376aa85a903e4ca2125baea0145b721525d684a4d19c324b47494547f97c3",
+    "SKILL.md": "4c800b790174e592920e8c8dff0b3363e4baf062b805a1d87ce55c7ad2e7ea09",
+    "使用说明.md": "18437f04ab84af13bd344e6566b97848050cfd5ba19bbc4fbce6c6c2fef32b1a",
+    "references/evaluation.md": "6b5d278dd14c517371e732fb6c8fe8ab8a1c38cb5236d3c220cad39e6ee0c4e3",
+    "references/evidence-workflow.md": "5d2a9615c03671a3af6b9eb30ab93313279adb440dd3723464cdfdb52be594e6",
+    "references/inspection-guide.md": "f2c67c207103b870182624b42a886fc3fd819c43bff2264ac2a489e268df617e",
+    "references/output-schema.md": "b4c9d5f1a85cf69f9376c6b7b96831afa9b2e21bb8011b986550b84b571c6a48",
+    "scripts/prepare_views.py": "e6daa7e36926935b2b545b0bab4eaec36b2830292602e193acb2e24266b42e3a",
+    "scripts/validate_results.py": "d62eca3e9d0894227671fad7cb4dcfddc6cb9593359772f33fbb95b3a3cd23ac",
+    "templates/inspection-results.json": "7974b5ab5e002b25eb1dc9d9070f820195a7d317a416c0e55376e3f0459d2d1f",
+    "tests/test_workflow.py": "ffe1ec855d023a70704169554cf2b3318da664415c82ae23439bba383cb6a891"
+  },
+  "strict_validation_passed": true,
+  "selection_bias": "Scope selected after inspecting baseline negatives; not a held-out test set.",
+  "independent_human_ground_truth": false
+}

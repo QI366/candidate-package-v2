@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "objects": [
+    {
+      "object_id": "demo-object-001",
+      "views_received": ["front.png", "oblique.png"],
+      "views_inspected": ["front.png", "oblique.png"],
+      "status": "defects_found",
+      "defects": [
+        {
+          "defect_id": "D1",
+          "type": "linear_mark",
+          "confidence": "medium",
+          "evidence_view": "front.png",
+          "bbox_1000": [210, 320, 430, 380],
+          "relative_location": "演示物体上表面偏左",
+          "visual_evidence": "仅用于展示数据格式：表面可见一处细长痕迹。",
+          "other_views": [
+            {
+              "view": "oblique.png",
+              "relation": "confirms",
+              "note": "演示说明：斜视图的对应位置可见相符线痕。"
+            }
+          ],
+          "uncertainty": "虚构格式示例，未对应任何实际输入图片；框为近似定位。"
+        }
+      ],
+      "review_reason": null
+    }
+  ],
+  "summary": {
+    "objects_total": 1,
+    "objects_with_defects": 1,
+    "objects_for_review": 0,
+    "linear_mark_count": 1,
+    "material_loss_count": 0
+  }
+}
